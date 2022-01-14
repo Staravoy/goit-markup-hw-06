@@ -105,6 +105,7 @@
                             
                                 <div class="form-checkbox">
                                     <input type="checkbox" name="checkbox" id="checkbox">
+                                    <span class="span-checkbox"><img class="span-img" src="images/Vector-1.png"/></span>
                                     <label for="checkbox">
                                         Соглашаюсь с рассылкой и принимаю
                                     </label>
@@ -112,10 +113,12 @@
                                     <a href="#" class="contract">Условия договора</a>
                             
                                 </div>
-                            </form>
-                            <div class="send-button"><button type="submit" class="form-button">Отправить</button>
+                                <div class="send-button">
+                                    <button type="submit" class="form-button">Отправить</button>
                                 
                             </div>
+                            </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -453,10 +456,13 @@
         <div class="subscribe-cont">
         <form class="subscribe-form">
             <input placeholder="E-mail" type="email" class="subscribe-input">
-        </form>
-        <button type="submit" class="subscribe-button">Подписаться 
-            <img src="images/icon-send.png" class="send-icon">
+            <button type="submit" class="subscribe-button">Подписаться 
+            <svg class="send-icon">
+            <use href="./images/sprite.svg#icon-icon-send-1" >
+          </svg>
         </button>
+        </form>
+        
     </div>
     </div>
 </div>
